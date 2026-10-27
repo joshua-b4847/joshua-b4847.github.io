@@ -1,1 +1,20 @@
+Title: Module 10 - Multiplot Visualisation: Regional Logistics & Fulfillment Dynamics
+Date: October 27, 2026
+Summary of the Exercise: In this exercise, I explored intentional multiplot design by combining two related data visualisations into a publication-ready interactive display.
+The workflow was completed in the following stages:
+Directory Setup: Established a dedicated workspace folder (Module 10 - Portfolio Exercise) within my OneDrive portfolio structure, maintaining clean separation for scripts, datasets, data cards, and write-ups.
+Data Sourcing & Processing: Structured spatial and statistical performance metrics across key suburban hubs in South-East Melbourne. Using Python (pandas), I processed suburban coordinates, order volumes, and average delivery durations to construct a cohesive regional dataset.
+Interactive Visualisation Design: Developed a Python-based multiplot display using Plotly make_subplots. I paired a spatial coordinate map (Longitude vs. Latitude with scaled order volume markers) alongside a synchronized statistical bar chart tracking average delivery times, incorporating hover tooltips and interactive panning/zooming.
+Hosting & Embedding: Exported the display as a standalone interactive .html file, deployed it via Posit Connect Cloud, and embedded the live application directly into this portfolio page.
 
+Interactive visualisation;
+https://connect.posit.cloud/joshua-b4847/content/01a17cd9-2a58-2bc1-e520-f2954b95b25a
+
+Data Card:
+Dataset Title: South-Eastern Melbourne Suburban Logistics Metrics
+Overview: A spatial-statistical dataset mapping order volumes and fulfillment duration across South-East Melbourne suburban nodes.
+Variables: Longitude & Latitude (WGS 84 spatial coordinates), Order_Volume (transaction counts per hub), Average_Delivery_Time_Min (fulfillment duration in minutes).
+Limitations: Geographic points represent suburban centroid approximations rather than street-level parcel polygons.
+
+References:
+Plotly Technologies Inc. (2026). Collaborative data science: Plotly Python Open Source Graphing Libraries. https://plotly.com/python/

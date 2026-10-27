@@ -1,0 +1,16 @@
+Title: Module 9 - Interactive Spatial Data Visualisation: Melbourne Pedestrian Dynamics
+Date: October 27, 2026   
+Summary of the ExerciseIn this exercise, I explored intentional interactive design by building a spatial-temporal data visualisation based on real-world urban data. 
+The workflow was completed in the following stages:   
+Directory Setup: Established a dedicated workspace folder (Module 9 - Portfolio Exercise) within my OneDrive portfolio structure, maintaining clean separation for scripts, raw data files, and documentation.   
+Data Sourcing & Processing: Sourced open-access spatial and hourly pedestrian data from the City of Melbourne via the DataVic portal. 
+Using Python (pandas and requests), I ingested the sensor coordinate metadata and streaming hourly pedestrian counts, merged the datasets on location identifiers, and aggregated average foot traffic by hour of day.   
+Interactive Visualisation Design: Developed a Python-based interactive map using folium and its time-slider plugin. 
+Rather than a static chart, I implemented an interactive 24-hour time slider to let viewers visually inspect how pedestrian foot traffic evolves across the Melbourne CBD over the course of a full day.   
+Hosting & Embedding: Generated a standalone interactive .html file, deployed it via Posit Connect Cloud, and embedded the live application directly into this portfolio page using an responsive iframe.   
+
+Interactive visualisation;
+https://connect.posit.cloud/joshua-b4847/content/01a17ca7-27f9-ad62-3f9e-9929d4a9661f
+
+ReferencesCity of Melbourne. (2026). Pedestrian Counting System - Sensor Locations. DataVic Open Data Portal. https://data.melbourne.vic.gov.au/   
+City of Melbourne. (2026). Pedestrian Counting System - Monthly Counts per Hour. DataVic Open Data Portal. https://data.melbourne.vic.gov.au/
